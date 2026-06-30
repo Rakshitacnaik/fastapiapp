@@ -41,11 +41,13 @@ function App() {
     <div>
       <NavBar />
       <Welcome />
-      <CompanyCard />
+      <br />
+      <CompanyCard 
+      companies={companies}/>
       <JobCard />
       <Footer />
     </div>
-  );
+  )
 }
 
 export default App
